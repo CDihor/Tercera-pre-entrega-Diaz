@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Agregar Objeto</title>
+</head>
+<body>
+    <h1>Agregar Objeto</h1>
+    <form method="POST" action="">
+        <!-- Agregar campos del formulario para la creación de objetos -->
+        {% csrf_token %}
+        <input type="text" name="nombre" placeholder="Nombre del objeto">
+        <input type="submit" value="Agregar Objeto">
+    </form>
+</body>
+</html>
