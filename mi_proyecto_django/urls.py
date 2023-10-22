@@ -32,8 +32,6 @@ if settings.DEBUG:
     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-    # Configuración de internacionalización
-LANGUAGE_CODE = 'es'  
-USE_I18N = True
+   
 
 
